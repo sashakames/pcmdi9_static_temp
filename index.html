@@ -64,6 +64,19 @@
 
       }
 
+      div.hero-unit div.hero-bg {
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: .15;
+        background: url(media/images/esgf-modeling.png) center center no-repeat;
+        width: 100%;
+        height: 100%;
+      }
+
     </style>
 
 
@@ -95,46 +108,41 @@
   }(document, 'script'));
 
 </script>
-
-
-
-
-
-    </head>
-  
-
+</head>
 <body>
-
-<div class="hero-unit">
-
-  <div class="hero-bg"></div>
-
-  <h1>Earth System Grid Federation</h1>
-
-  <p>An <a href="http://esgf.llnl.gov/LICENSE.html" target="_blank">open source</a> effort providing a robust, distributed data and computation platform, enabling world wide access to Peta/Exa-scale scientific data.</p>
-
-  <p><a class="btn btn-primary btn-large" href="http://esgf.llnl.gov/mission.html">Learn more</a></p>
-
-</div>
+  <div class="wrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <button type="button" class="tbn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#"><img src="media/esgfSmall.png" style="float: left;"></a>
+      </div>
+    </div><!-- navbar -->
+  </div> <!-- wrapper -->
 
 
+  <div class="hero-unit">
+    <div class="hero-bg"></div>
+      <h1>Earth System Grid Federation</h1>
 
-<div class="hero-unit announcement">
+      <p>An <a href="http://esgf.llnl.gov/LICENSE.html" target="_blank">open source</a> effort providing a robust, distributed data and computation platform, enabling world wide access to Peta/Exa-scale scientific data.</p>
+      <p><a class="btn btn-primary btn-large" href="http://esgf.llnl.gov/mission.html">Learn more</a></p>
+    </div>
+  </div>
 
-  <h3>Dear  ESGF community</h3>
 
-  <p>
+  <div class="hero-unit announcement">
 
-  <p>To protect the integrity of the ESGF data archives, we have decided to overhaul the entire ESG Federation of data nodes. This means that over the next 3 or 4 weeks, you will not have access to data through ESGF. </p>
+    <h3>Dear  ESGF community</h3>
 
-  <p>Updates concerning the overhaul of ESGF will be posted at:  <a href="http://esgf.llnl.gov">http://esgf.llnl.gov</a>.</p>
+    <p>To protect the integrity of the ESGF data archives, we have decided to overhaul the entire ESG Federation of data nodes. This means that over the next 3 or 4 weeks, you will not have access to data through ESGF. </p>
 
-  <p>Note that this announcement affects all ESGF data, including CMIP5 output, but data from CMIP3 simulations remains available via <a href="https://esg.llnl.gov:8443/about/registration.do">https://esg.llnl.gov:8443/about/registration.do</a>  (see also <a href="http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started">http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started)</a>.</p>
+    <p>Updates concerning the overhaul of ESGF will be posted at: <a href="http://esgf.llnl.gov">http://esgf.llnl.gov</a>.</p>
 
-  </p>
+    <p>Note that this announcement affects all ESGF data, including CMIP5 output, but data from CMIP3 simulations remains available via <a href="https://esg.llnl.gov:8443/about/registration.do">https://esg.llnl.gov:8443/about/registration.do</a>  (see also <a href="http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started">http://www-pcmdi.llnl.gov/ipcc/info_for_analysts.php#getting_started)</a>.</p>
 
-</div>
+  </div>
 
-  </body>
-
+</body>
 </html>
